@@ -9,6 +9,6 @@ function Start() {
     }, fadeoutDelay / symbols.length);
 
     $("body").fadeOut(fadeoutDelay, function() {
-        window.location = "./game.html";
+        $("html").load("game.html");
     });
 }
