@@ -22,6 +22,7 @@ function LoadLevel(url) {
             allText = txtFile.responseText;
             allText = allText.split("\n").join("<br>");
             document.getElementById('reportViewer').innerHTML = allText;
+            $("#level").innerHTML = $("fase").innerHTML;
         } else if(txtFile.readyState === XMLHttpRequest.DONE && txtFile.status !== 200)
         {
             alert("Resposta incorreta");
