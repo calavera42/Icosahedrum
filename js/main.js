@@ -9,7 +9,6 @@ function Start() {
     }, fadeoutDelay / symbols.length);
 
     $("body").fadeOut(fadeoutDelay, 'linear',function() {
-        $("body").load("game.html");
-        $("body").fadeIn(fadeoutDelay, 'linear');
+        window.location = "./game.html";
     });
 }
