@@ -8,8 +8,7 @@ function Start() {
         index++;
     }, fadeoutDelay / symbols.length);
 
-    $("body").fadeOut(fadeoutDelay, function() {
+    $("body").fadeOut(fadeoutDelay, 'linear',function() {
         $("body").load("game.html");
-        //$("html").fadeIn(fadeoutDelay);
     });
 }
