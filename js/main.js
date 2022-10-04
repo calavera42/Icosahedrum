@@ -1,5 +1,5 @@
 let symbols = "icosahedrum";
-let fadeoutDelay = 500;
+let fadeoutDelay = 1000;
 let index = 0;
 
 function Start() {
