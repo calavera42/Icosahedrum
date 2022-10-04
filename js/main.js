@@ -10,6 +10,6 @@ function Start() {
 
     $("body").fadeOut(fadeoutDelay, function() {
         $("html").load("game.html");
-        $("html").fadeIn(fadeoutDelay);
+        //$("html").fadeIn(fadeoutDelay);
     });
 }
