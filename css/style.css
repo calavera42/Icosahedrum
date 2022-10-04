@@ -4,6 +4,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+#numHolder {
+    visibility: hidden;
+}
+
 #headerLogo {
     width: 7.5%;
     height: 7.5%;
