@@ -10,5 +10,6 @@ function Start() {
 
     $("body").fadeOut(fadeoutDelay, 'linear',function() {
         $("body").load("game.html");
+        $("body").fadeIn(fadeoutDelay, 'linear');
     });
 }
