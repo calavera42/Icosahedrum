@@ -8,9 +8,9 @@ function Start() {
         index++;
     }, fadeoutDelay / symbols.length);
 
-    $("body").fadeOut(fadeoutDelay, 'linear',function() {
-        $("body").load("./game.html", function(){
-            $("body").fadeIn(fadeoutDelay, 'linear');
+    $("html").fadeOut(fadeoutDelay, 'linear',function() {
+        $("html").load("./game.html", function(){
+            $("html").fadeIn(fadeoutDelay, 'linear');
         });
     });
 }
